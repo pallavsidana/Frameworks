@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12761" started-at="2020-04-21T15:29:19 IST" finished-at="2020-04-21T15:29:32 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12761" started-at="2020-04-21T15:29:19 IST" finished-at="2020-04-21T15:29:32 IST">
+      <class name="parameterization.OpenBrowser">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:parameterization.OpenBrowser@1dfe2924]" name="SetUp" is-config="true" duration-ms="10294" started-at="2020-04-21T15:29:19 IST" description="this will execute before the test" finished-at="2020-04-21T15:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:parameterization.OpenBrowser@1dfe2924]" name="openBrowser" duration-ms="2435" started-at="2020-04-21T15:29:29 IST" finished-at="2020-04-21T15:29:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- parameterization.OpenBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
