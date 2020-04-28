@@ -32,5 +32,11 @@ public class Calc {
 		int c= a/b;
 		System.out.println("Division value of c is ::::"+ c);
 	}
-
+	@Test
+	public void Percentage() {
+		int a=1000;
+		int b=90;
+		int c= (a*b)/100;
+		System.out.println("Percentage value of c is ::::"+ c);
+	}
 }
