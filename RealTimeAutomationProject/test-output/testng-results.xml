@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2020-04-28T15:01:59 IST" finished-at="2020-04-28T15:01:59 IST">
+  <suite name="Suite" duration-ms="12761" started-at="2020-04-21T15:29:19 IST" finished-at="2020-04-21T15:29:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2020-04-28T15:01:59 IST" finished-at="2020-04-28T15:01:59 IST">
-      <class name="Calculator.Calc">
-        <test-method status="PASS" signature="DIV()[pri:0, instance:Calculator.Calc@210366b4]" name="DIV" duration-ms="9" started-at="2020-04-28T15:01:59 IST" description="Division" finished-at="2020-04-28T15:01:59 IST">
+    <test name="Test" duration-ms="12761" started-at="2020-04-21T15:29:19 IST" finished-at="2020-04-21T15:29:32 IST">
+      <class name="parameterization.OpenBrowser">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:parameterization.OpenBrowser@1dfe2924]" name="SetUp" is-config="true" duration-ms="10294" started-at="2020-04-21T15:29:19 IST" description="this will execute before the test" finished-at="2020-04-21T15:29:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DIV -->
-        <test-method status="PASS" signature="Mul()[pri:0, instance:Calculator.Calc@210366b4]" name="Mul" duration-ms="1" started-at="2020-04-28T15:01:59 IST" description="Multiplication" finished-at="2020-04-28T15:01:59 IST">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:parameterization.OpenBrowser@1dfe2924]" name="openBrowser" duration-ms="2435" started-at="2020-04-21T15:29:29 IST" finished-at="2020-04-21T15:29:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mul -->
-        <test-method status="PASS" signature="Percentage()[pri:0, instance:Calculator.Calc@210366b4]" name="Percentage" duration-ms="2" started-at="2020-04-28T15:01:59 IST" description="Precentage" finished-at="2020-04-28T15:01:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Percentage -->
-        <test-method status="PASS" signature="Sub()[pri:0, instance:Calculator.Calc@210366b4]" name="Sub" duration-ms="1" started-at="2020-04-28T15:01:59 IST" description="Substraction" finished-at="2020-04-28T15:01:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sub -->
-        <test-method status="PASS" signature="add()[pri:0, instance:Calculator.Calc@210366b4]" name="add" duration-ms="1" started-at="2020-04-28T15:01:59 IST" description="Addition" finished-at="2020-04-28T15:01:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- Calculator.Calc -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- openBrowser -->
+      </class> <!-- parameterization.OpenBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
