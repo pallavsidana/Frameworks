@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameterization.OpenBrowser">
+      <class name="propertyusage.OpenBrowser">
         <methods>
-          <include name="openBrowser"/>
+          <include name="openBroser"/>
         </methods>
-      </class> <!-- parameterization.OpenBrowser -->
+      </class> <!-- propertyusage.OpenBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
